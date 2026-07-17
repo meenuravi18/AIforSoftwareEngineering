@@ -1,0 +1,16 @@
+[project]                     # Standard metadata table
+name = "cs5740-module1"       # Your project’s name
+version = "0.1.0"             # A version number (can be anything)
+description = "Module 1 starter environment"
+readme = "README.md"          # Optional: points to your README file
+requires-python = ">=3.12"    # Enforce Python version
+
+dependencies = [              # The actual packages you want installed
+  "openai",
+  "httpx",
+  "python-dotenv",
+  "jupyter",
+]
+
+[tool.uv]                     # Optional uv-specific section
+# Right now it’s empty — uv doesn’t need anything extra
